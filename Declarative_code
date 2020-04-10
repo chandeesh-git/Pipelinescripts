@@ -7,7 +7,7 @@ stages {
  stage('compile & execute') {
  steps {
 
-            // Get some code from a GitHub repository
+// Get some code from a GitHub repository
             git 'https://github.com/chandeesh-git/Jenkins'
 			
 	    sh 'javac Helloworld.java'
